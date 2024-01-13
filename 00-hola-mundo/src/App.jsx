@@ -5,7 +5,7 @@ export function App() {
 
   return (
     <section className='TwCard'>
-        <TwitterFollowCard userName="kikobeats">
+        <TwitterFollowCard userName="kikobeats" initialIsFollowing>
           Kiko Beats  
         </TwitterFollowCard>
 
@@ -16,6 +16,8 @@ export function App() {
         <TwitterFollowCard userName="lmorillo96">
           Leandro Morillo
         </TwitterFollowCard>
+
+        {/*Un comentario*/}
 
     </section>
   );
